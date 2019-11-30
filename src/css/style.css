@@ -95,4 +95,44 @@ img {
     width: 90px;
   }
 }
+
+.hero {
+  padding: 50px 0;
+}
+
+.hero-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.hero-text {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  padding-right: 140px;
+}
+
+.hero-text__title {
+  font-size: 41px;
+  font-weight: 700;
+  color: #333333;
+  line-height: 55px;
+  margin-bottom: 40px;
+}
+
+.hero-text__subtitle {
+  font-size: 20px;
+  color: #333333;
+}
+
+.hero-list {
+  margin: 0;
+  padding: 0;
+}
+
+.hero-list__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
 /*# sourceMappingURL=style.css.map */
