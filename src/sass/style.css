@@ -29,20 +29,12 @@ img {
   .container {
     width: 85%;
   }
-}
-
-.button {
-  border-radius: 10px;
-  background-color: #ffd200;
-  border: none;
-  padding: 18px 30px;
-  font-family: 'Museo Sans Bold';
-  font-size: 13px;
-}
-
-.button:hover {
-  background-color: #ffdb33;
-  cursor: pointer;
+  .button {
+    border-radius: 10px;
+    background-color: #ffd200;
+    border: none;
+    padding: 18px 30px;
+  }
 }
 
 /*Импорт стилей шапки*/
@@ -159,10 +151,6 @@ img {
       -ms-flex-align: center;
           align-items: center;
   margin-bottom: 25px;
-}
-
-.hero-list__item:last-child {
-  margin-bottom: 0;
 }
 
 .hero-list__image {
